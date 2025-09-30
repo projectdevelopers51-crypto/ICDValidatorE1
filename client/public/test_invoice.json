@@ -1,0 +1,2656 @@
+{
+	"Submission": {
+		"Header": {
+			"SenderID": "123HS",
+			"ReceiverID": "INSX00",
+			"TransactionDate": "01/01/2015 10:00",
+			"RecordCount": 15,
+			"DispositionFlag": "PRODUCTION",
+			"PayerID": "INSX00"
+		},
+		"Claim": [
+			{
+				"ID": "INVXO4578290",
+				"Type": "Submission",
+				"MemberID": "14/DUMY/14512/0/267/A/0",
+				"ProviderID": "123HS",
+				"NationalIDNumber": "999-9999-9999999-9",
+				"Gross": 90.0,
+				"PatientShare": 18.0,
+				"Net": 72.0,
+				"DateOfBirth": "30/09/1998 00:00",
+				"Gender": "Male",
+				"Encounter": {
+					"PatientID": "APN000841111",
+					"Start": "10/01/2013 20:54",
+					"End": "10/01/2013 20:54",
+					"StartType": "2",
+					"EndType": "1",
+					"TransferSource": "NA",
+					"TransferDestination": "NA",
+					"FacilityID": "123HS",
+					"Type": "2"
+				},
+				"Diagnosis": [
+					{
+						"Type": "Principal",
+						"Code": "M62.830",
+						"DxInfo": []
+					},
+					{
+						"Type": "Secondary",
+						"Code": "M54.6",
+						"DxInfo": []
+					}
+				],
+				"Activity": [
+					{
+						"ID": "1",
+						"Start": "10/01/2013 20:54",
+						"Type": "8",
+						"Code": "9",
+						"Quantity": 1.0,
+						"Net": 72.0,
+						"Clinician": "LIC81",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "BACK PAIN",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "DR- OP CONSULTATION VISIT",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "90.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "18.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "18.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "INVXO4583371",
+				"Type": "Submission",
+				"MemberID": "XX/DUM/32485/0/9/E/0",
+				"ProviderID": "123HS",
+				"NationalIDNumber": "999-9999-9999999-9",
+				"Gross": 125.0,
+				"PatientShare": 25.0,
+				"Net": 100.0,
+				"DateOfBirth": "30/07/2025 00:00",
+				"Gender": "Male",
+				"Encounter": {
+					"PatientID": "APNX0869118",
+					"Start": "15/01/2013 15:47",
+					"End": "15/01/2013 15:47",
+					"StartType": "1",
+					"EndType": "1",
+					"TransferSource": "NA",
+					"TransferDestination": "NA",
+					"FacilityID": "123HS",
+					"Type": "1"
+				},
+				"Diagnosis": [
+					{
+						"Type": "Principal",
+						"Code": "N50.89",
+						"DxInfo": []
+					},
+					{
+						"Type": "Secondary",
+						"Code": "N49.2",
+						"DxInfo": []
+					},
+					{
+						"Type": "Secondary",
+						"Code": "N47.1",
+						"DxInfo": []
+					}
+				],
+				"Activity": [
+					{
+						"ID": "2",
+						"Start": "15/01/2013 15:47",
+						"Type": "8",
+						"Code": "10",
+						"Quantity": 1.0,
+						"Net": 100.0,
+						"Clinician": "LIC911",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "DR - OP CONSULTATION VISIT",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "125.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "25.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "25.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "INVXO4583409",
+				"Type": "Submission",
+				"MemberID": "XX/DUM/DSAX/0/9/E/0",
+				"ProviderID": "123HS",
+				"NationalIDNumber": "999-9999-9999999-9",
+				"Gross": 244.0,
+				"PatientShare": 0.0,
+				"Net": 244.0,
+				"DateOfBirth": "30/07/2025 00:00",
+				"Gender": "Male",
+				"Encounter": {
+					"PatientID": "APNX0869118",
+					"Start": "15/01/2013 16:21",
+					"End": "15/01/2013 16:21",
+					"StartType": "1",
+					"EndType": "1",
+					"TransferSource": "NA",
+					"TransferDestination": "NA",
+					"FacilityID": "123HS",
+					"Type": "1"
+				},
+				"Diagnosis": [
+					{
+						"Type": "Principal",
+						"Code": "N50.89",
+						"DxInfo": []
+					},
+					{
+						"Type": "Secondary",
+						"Code": "N49.2",
+						"DxInfo": []
+					},
+					{
+						"Type": "Secondary",
+						"Code": "N47.1",
+						"DxInfo": []
+					}
+				],
+				"Activity": [
+					{
+						"PriorAuthorizationID": "TEST1",
+						"ID": "3",
+						"Start": "15/01/2013 16:21",
+						"Type": "3",
+						"Code": "76882",
+						"Quantity": 1.0,
+						"Net": 244.0,
+						"Clinician": "LIC911",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "US SOFT TISSUE",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "244.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "0.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "0.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "INVXO4589378",
+				"Type": "Submission",
+				"MemberID": "XA/UN/1111X/0/166/E/0",
+				"ProviderID": "123HS",
+				"NationalIDNumber": "999-9999-9999999-9",
+				"Gross": 125.0,
+				"PatientShare": 25.0,
+				"Net": 100.0,
+				"DateOfBirth": "01/01/1985 00:00",
+				"Gender": "Male",
+				"Encounter": {
+					"PatientID": "APNX0306679",
+					"Start": "21/01/2013 19:32",
+					"End": "21/01/2013 19:32",
+					"StartType": "1",
+					"EndType": "1",
+					"TransferSource": "NA",
+					"TransferDestination": "NA",
+					"FacilityID": "123HS",
+					"Type": "1"
+				},
+				"Diagnosis": [
+					{
+						"Type": "Principal",
+						"Code": "I10",
+						"DxInfo": []
+					},
+					{
+						"Type": "Secondary",
+						"Code": "R51",
+						"DxInfo": []
+					},
+					{
+						"Type": "Secondary",
+						"Code": "R11.2",
+						"DxInfo": []
+					},
+					{
+						"Type": "Secondary",
+						"Code": "Z79.899",
+						"DxInfo": []
+					}
+				],
+				"Activity": [
+					{
+						"ID": "4",
+						"Start": "21/01/2013 19:32",
+						"Type": "8",
+						"Code": "10",
+						"Quantity": 1.0,
+						"Net": 100.0,
+						"Clinician": "LIC901",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "HEADACHE,DIZZINESS N GIDDINESS",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "DR - OP CONSULTATION VISIT",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "125.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "25.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "25.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "INVXO4590933",
+				"Type": "Submission",
+				"MemberID": "XX/DUM/XD1245/0/13/E/0",
+				"ProviderID": "123HS",
+				"NationalIDNumber": "999-9999-9999999-9",
+				"Gross": 175.0,
+				"PatientShare": 35.0,
+				"Net": 140.0,
+				"DateOfBirth": "15/05/1986 00:00",
+				"Gender": "Male",
+				"Encounter": {
+					"PatientID": "APNX0222504",
+					"Start": "23/01/2013 11:58",
+					"End": "23/01/2013 11:58",
+					"StartType": "1",
+					"EndType": "1",
+					"TransferSource": "NA",
+					"TransferDestination": "NA",
+					"FacilityID": "123HS",
+					"Type": "1"
+				},
+				"Diagnosis": [
+					{
+						"Type": "Principal",
+						"Code": "M79.2",
+						"DxInfo": []
+					},
+					{
+						"Type": "Secondary",
+						"Code": "D51.9",
+						"DxInfo": []
+					},
+					{
+						"Type": "Secondary",
+						"Code": "M54.5",
+						"DxInfo": []
+					},
+					{
+						"Type": "Secondary",
+						"Code": "R20.2",
+						"DxInfo": []
+					}
+				],
+				"Activity": [
+					{
+						"ID": "5",
+						"Start": "23/01/2013 11:58",
+						"Type": "8",
+						"Code": "11",
+						"Quantity": 1.0,
+						"Net": 140.0,
+						"Clinician": "LIC65X",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "Pain and numbness Left lower limbs,Low back pain",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "DR-OP CONSULTATION VISIT",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "175.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "35.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "35.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "INVXO4591062",
+				"Type": "Submission",
+				"MemberID": "10/XH/XDE12/0/3/E/0",
+				"ProviderID": "123HS",
+				"NationalIDNumber": "999-9999-9999999-9",
+				"Gross": 1336.72,
+				"PatientShare": 17.5,
+				"Net": 1319.22,
+				"DateOfBirth": "24/01/1971 00:00",
+				"Gender": "Male",
+				"Encounter": {
+					"PatientID": "APN11SX35",
+					"Start": "23/01/2013 14:18",
+					"End": "23/01/2013 14:18",
+					"StartType": "1",
+					"EndType": "1",
+					"TransferSource": "NA",
+					"TransferDestination": "NA",
+					"FacilityID": "123HS",
+					"Type": "1"
+				},
+				"Diagnosis": [
+					{
+						"Type": "Principal",
+						"Code": "E11.69",
+						"DxInfo": []
+					},
+					{
+						"Type": "Secondary",
+						"Code": "E78.2",
+						"DxInfo": []
+					},
+					{
+						"Type": "Secondary",
+						"Code": "Z95.5",
+						"DxInfo": []
+					},
+					{
+						"Type": "Secondary",
+						"Code": "R74.8",
+						"DxInfo": []
+					},
+					{
+						"Type": "Secondary",
+						"Code": "Z79.899",
+						"DxInfo": []
+					}
+				],
+				"Activity": [
+					{
+						"ID": "6",
+						"Start": "23/01/2013 14:18",
+						"Type": "3",
+						"Code": "84520",
+						"Quantity": 1.0,
+						"Net": 49.0,
+						"Clinician": "LIC081",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "For medicine",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "UREA, SERUM",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "49.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "17.500",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "0.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							}
+						]
+					},
+					{
+						"ID": "7",
+						"Start": "23/01/2013 14:18",
+						"Type": "3",
+						"Code": "84550",
+						"Quantity": 1.0,
+						"Net": 49.28,
+						"Clinician": "LIC081",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "For medicine",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "URIC ACID, SERUM",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "49.280",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "17.500",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "0.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							}
+						]
+					},
+					{
+						"ID": "8",
+						"Start": "23/01/2013 14:18",
+						"Type": "3",
+						"Code": "84443",
+						"Quantity": 1.0,
+						"Net": 140.0,
+						"Clinician": "LIC081",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "For medicine",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "TSH-THYROID STIMULATING HORMONE",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "140.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "17.500",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "0.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							}
+						]
+					},
+					{
+						"ID": "9",
+						"Start": "23/01/2013 14:18",
+						"Type": "3",
+						"Code": "80061",
+						"Quantity": 1.0,
+						"Net": 206.36,
+						"Clinician": "LIC081",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "For medicine",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "LIPID PROFILE",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "206.360",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "17.500",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "0.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "CHOL - (Result = 120.43) - 24/01/2013",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "TRIG - (Result = 91.00) - 24/01/2013",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "HDL - (Result = 31.22) - 24/01/2013",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "LDL - (Result = 65.00) - 24/01/2013",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "NONHDL - (Result = 98.000000) - 24/01/2013",
+								"ValueType": "Other"
+							}
+						]
+					},
+					{
+						"ID": "10",
+						"Start": "23/01/2013 14:18",
+						"Type": "3",
+						"Code": "83036",
+						"Quantity": 1.0,
+						"Net": 126.0,
+						"Clinician": "LIC081",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "For medicine",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "GLYCATED HAEMOGLOBIN (HBA1C), BLOOD",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "126.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "17.500",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "0.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "A1C - (Result = 6.17) - 24/01/2013",
+								"ValueType": "Other"
+							}
+						]
+					},
+					{
+						"ID": "11",
+						"Start": "23/01/2013 14:18",
+						"Type": "3",
+						"Code": "82947",
+						"Quantity": 1.0,
+						"Net": 56.0,
+						"Clinician": "LIC081",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "For medicine",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "GLUCOSE FASTING",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "56.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "17.500",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "0.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "FBS - (Result = 104.92) - 24/01/2013",
+								"ValueType": "Other"
+							}
+						]
+					},
+					{
+						"ID": "12",
+						"Start": "23/01/2013 14:18",
+						"Type": "3",
+						"Code": "80051",
+						"Quantity": 1.0,
+						"Net": 91.0,
+						"Clinician": "LIC081",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "For medicine",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "ELECTROLYTES  ( NA,K,CL, CO2)",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "91.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "17.500",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "0.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							}
+						]
+					},
+					{
+						"ID": "13",
+						"Start": "23/01/2013 14:18",
+						"Type": "3",
+						"Code": "82550",
+						"Quantity": 1.0,
+						"Net": 49.0,
+						"Clinician": "LIC081",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "For medicine",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "CREATININE KINASE (CK)",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "49.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "17.500",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "0.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							}
+						]
+					},
+					{
+						"ID": "14",
+						"Start": "23/01/2013 14:18",
+						"Type": "3",
+						"Code": "82565",
+						"Quantity": 1.0,
+						"Net": 49.0,
+						"Clinician": "LIC081",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "For medicine",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "CREATININE",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "49.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "17.500",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "0.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "CR - (Result = 0.69) - 24/01/2013",
+								"ValueType": "Other"
+							}
+						]
+					},
+					{
+						"ID": "15",
+						"Start": "23/01/2013 14:18",
+						"Type": "3",
+						"Code": "85025",
+						"Quantity": 1.0,
+						"Net": 86.24,
+						"Clinician": "LIC081",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "For medicine",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "COMPLETE BLOOD COUNT - CBC",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "86.240",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "17.500",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "0.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							}
+						]
+					},
+					{
+						"ID": "16",
+						"Start": "23/01/2013 14:18",
+						"Type": "3",
+						"Code": "82553",
+						"Quantity": 1.0,
+						"Net": 91.0,
+						"Clinician": "LIC081",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "For medicine",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "CKMB",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "91.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "17.500",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "0.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							}
+						]
+					},
+					{
+						"ID": "17",
+						"Start": "23/01/2013 14:18",
+						"Type": "3",
+						"Code": "84450",
+						"Quantity": 1.0,
+						"Net": 49.0,
+						"Clinician": "LIC081",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "For medicine",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "AST (SGOT), SERUM",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "49.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "17.500",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "0.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "AST - (Result = 13.36) - 24/01/2013",
+								"ValueType": "Other"
+							}
+						]
+					},
+					{
+						"ID": "18",
+						"Start": "23/01/2013 14:18",
+						"Type": "3",
+						"Code": "82150",
+						"Quantity": 1.0,
+						"Net": 70.84,
+						"Clinician": "LIC081",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "For medicine",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "AMYLASE, SERUM",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "70.840",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "17.500",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "0.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							}
+						]
+					},
+					{
+						"ID": "19",
+						"Start": "23/01/2013 14:18",
+						"Type": "3",
+						"Code": "84460",
+						"Quantity": 1.0,
+						"Net": 49.0,
+						"Clinician": "LIC081",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "For medicine",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "ALT (SGPT), SERUM",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "49.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "17.500",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "0.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "ALT - (Result = 19.42) - 24/01/2013",
+								"ValueType": "Other"
+							}
+						]
+					},
+					{
+						"ID": "20",
+						"Start": "23/01/2013 14:18",
+						"Type": "8",
+						"Code": "10",
+						"Quantity": 1.0,
+						"Net": 157.5,
+						"Clinician": "LIC081",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "For medicine",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "DR -OP CONSULTATION VISIT",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "175.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "17.500",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "17.500",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "INVXO4591344",
+				"Type": "Submission",
+				"MemberID": "01/DE/12DE80/0/1/P/0",
+				"ProviderID": "123HS",
+				"NationalIDNumber": "999-9999-9999999-9",
+				"Gross": 125.0,
+				"PatientShare": 12.5,
+				"Net": 112.5,
+				"DateOfBirth": "05/02/2024 00:00",
+				"Gender": "Female",
+				"Encounter": {
+					"PatientID": "APNX0806425",
+					"Start": "23/01/2013 18:56",
+					"End": "23/01/2013 18:56",
+					"StartType": "1",
+					"EndType": "1",
+					"TransferSource": "NA",
+					"TransferDestination": "NA",
+					"FacilityID": "123HS",
+					"Type": "1"
+				},
+				"Diagnosis": [
+					{
+						"Type": "Principal",
+						"Code": "J06.9",
+						"DxInfo": []
+					},
+					{
+						"Type": "Secondary",
+						"Code": "E56.1",
+						"DxInfo": []
+					},
+					{
+						"Type": "Secondary",
+						"Code": "E53.8",
+						"DxInfo": []
+					},
+					{
+						"Type": "Secondary",
+						"Code": "H68.003",
+						"DxInfo": []
+					}
+				],
+				"Activity": [
+					{
+						"ID": "21",
+						"Start": "23/01/2013 18:56",
+						"Type": "8",
+						"Code": "10",
+						"Quantity": 1.0,
+						"Net": 112.5,
+						"Clinician": "LIC071",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "poor apetite,Lethargy and weakness generalised,Earache,cold",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "DR-OP CONSULTATION VISIT",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "125.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "12.500",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "12.500",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "INVXO4592020",
+				"Type": "Submission",
+				"MemberID": "SD/SE/300SD/0/82/E/0",
+				"ProviderID": "123HS",
+				"NationalIDNumber": "999-9999-9999999-9",
+				"Gross": 175.0,
+				"PatientShare": 17.5,
+				"Net": 157.5,
+				"DateOfBirth": "25/05/1987 00:00",
+				"Gender": "Male",
+				"Encounter": {
+					"PatientID": "APNX0265371",
+					"Start": "24/01/2013 18:58",
+					"End": "24/01/2013 18:58",
+					"StartType": "1",
+					"EndType": "1",
+					"TransferSource": "NA",
+					"TransferDestination": "NA",
+					"FacilityID": "123HS",
+					"Type": "1"
+				},
+				"Diagnosis": [
+					{
+						"Type": "Principal",
+						"Code": "E11.65",
+						"DxInfo": []
+					},
+					{
+						"Type": "Secondary",
+						"Code": "E78.2",
+						"DxInfo": []
+					},
+					{
+						"Type": "Secondary",
+						"Code": "I10",
+						"DxInfo": []
+					},
+					{
+						"Type": "Secondary",
+						"Code": "Z79.899",
+						"DxInfo": []
+					}
+				],
+				"Activity": [
+					{
+						"ID": "22",
+						"Start": "24/01/2013 18:58",
+						"Type": "8",
+						"Code": "10",
+						"Quantity": 1.0,
+						"Net": 157.5,
+						"Clinician": "LIC041",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "FOLLOW UP",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "DR - OP CONSULTATION VISIT",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "175.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "17.500",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "17.500",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "INVXO4592139",
+				"Type": "Submission",
+				"MemberID": "DE/RT/311D19/0/1/D/2",
+				"ProviderID": "123HS",
+				"NationalIDNumber": "999-9999-9999999-9",
+				"Gross": 125.0,
+				"PatientShare": 12.5,
+				"Net": 112.5,
+				"DateOfBirth": "20/12/2017 00:00",
+				"Gender": "Female",
+				"Encounter": {
+					"PatientID": "APNX0806814",
+					"Start": "24/01/2013 21:53",
+					"End": "24/01/2013 21:53",
+					"StartType": "1",
+					"EndType": "1",
+					"TransferSource": "NA",
+					"TransferDestination": "NA",
+					"FacilityID": "123HS",
+					"Type": "1"
+				},
+				"Diagnosis": [
+					{
+						"Type": "Principal",
+						"Code": "H67.2",
+						"DxInfo": []
+					},
+					{
+						"Type": "Secondary",
+						"Code": "H66.42",
+						"DxInfo": []
+					}
+				],
+				"Activity": [
+					{
+						"ID": "23",
+						"Start": "24/01/2013 21:53",
+						"Type": "8",
+						"Code": "10",
+						"Quantity": 1.0,
+						"Net": 112.5,
+						"Clinician": "LIC044",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "Earache",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "DR - OP CONSULTATION VISIT",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "125.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "12.500",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "12.500",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "INVXO4592278",
+				"Type": "Submission",
+				"MemberID": "SE/ER/31T51/0/28/E/0",
+				"ProviderID": "123HS",
+				"NationalIDNumber": "999-9999-9999999-9",
+				"Gross": 638.37,
+				"PatientShare": 25.0,
+				"Net": 613.37,
+				"DateOfBirth": "20/07/1977 00:00",
+				"Gender": "Male",
+				"Encounter": {
+					"PatientID": "APN10541S6",
+					"Start": "25/01/2013 10:11",
+					"End": "25/01/2013 10:11",
+					"StartType": "1",
+					"EndType": "1",
+					"TransferSource": "NA",
+					"TransferDestination": "NA",
+					"FacilityID": "123HS",
+					"Type": "1"
+				},
+				"Diagnosis": [
+					{
+						"Type": "Principal",
+						"Code": "S62.662A",
+						"DxInfo": []
+					},
+					{
+						"Type": "Secondary",
+						"Code": "S60.551A",
+						"DxInfo": []
+					},
+					{
+						"Type": "Secondary",
+						"Code": "M79.644",
+						"DxInfo": []
+					},
+					{
+						"Type": "Secondary",
+						"Code": "L03.011",
+						"DxInfo": []
+					}
+				],
+				"Activity": [
+					{
+						"ID": "24",
+						"Start": "25/01/2013 10:11",
+						"Type": "3",
+						"Code": "82947",
+						"Quantity": 1.0,
+						"Net": 48.8,
+						"Clinician": "LIC048",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "RT MIDDLE FINGER PAIN",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "GLUCOSE FASTING",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "48.800",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "25.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "0.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "FBS - (Result = 96.93) - 25/01/2013",
+								"ValueType": "Other"
+							}
+						]
+					},
+					{
+						"ID": "25",
+						"Start": "25/01/2013 10:11",
+						"Type": "3",
+						"Code": "86430",
+						"Quantity": 1.0,
+						"Net": 53.68,
+						"Clinician": "LIC048",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "RT MIDDLE FINGER PAIN",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "RA -  RHEUMATOID ARTHRITIS PANEL-1 (ANA, RA , CRP)",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "53.680",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "25.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "0.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							}
+						]
+					},
+					{
+						"ID": "26",
+						"Start": "25/01/2013 10:11",
+						"Type": "3",
+						"Code": "84550",
+						"Quantity": 1.0,
+						"Net": 42.94,
+						"Clinician": "LIC048",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "RT MIDDLE FINGER PAIN",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "URIC ACID, SERUM",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "42.940",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "25.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "0.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							}
+						]
+					},
+					{
+						"ID": "27",
+						"Start": "25/01/2013 10:11",
+						"Type": "3",
+						"Code": "83036",
+						"Quantity": 1.0,
+						"Net": 109.8,
+						"Clinician": "LIC048",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "RT MIDDLE FINGER PAIN",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "GLYCATED HAEMOGLOBIN (HBA1C), BLOOD",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "109.800",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "25.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "0.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "A1C - (Result = 5.75) - 25/01/2013",
+								"ValueType": "Other"
+							}
+						]
+					},
+					{
+						"ID": "28",
+						"Start": "25/01/2013 10:11",
+						"Type": "3",
+						"Code": "85651",
+						"Quantity": 1.0,
+						"Net": 30.5,
+						"Clinician": "LIC048",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "RT MIDDLE FINGER PAIN",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "ESR",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "30.500",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "25.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "0.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							}
+						]
+					},
+					{
+						"ID": "29",
+						"Start": "25/01/2013 10:11",
+						"Type": "3",
+						"Code": "85025",
+						"Quantity": 1.0,
+						"Net": 75.15,
+						"Clinician": "LIC048",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "RT MIDDLE FINGER PAIN",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "COMPLETE BLOOD COUNT - CBC",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "75.150",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "25.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "0.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							}
+						]
+					},
+					{
+						"ID": "30",
+						"Start": "25/01/2013 10:11",
+						"Type": "3",
+						"Code": "86200",
+						"Quantity": 1.0,
+						"Net": 152.5,
+						"Clinician": "LIC048",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "RT MIDDLE FINGER PAIN",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "CCP-AB TO CYCLIC CITRULINATED PEPTIDE",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "152.500",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "25.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "0.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							}
+						]
+					},
+					{
+						"ID": "31",
+						"Start": "25/01/2013 10:11",
+						"Type": "8",
+						"Code": "10",
+						"Quantity": 1.0,
+						"Net": 100.0,
+						"Clinician": "LIC048",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "RT MIDDLE FINGER PAIN",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "DR -OP CONSULTATION VISIT",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "125.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "25.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "25.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "INVXO4598362",
+				"Type": "Submission",
+				"MemberID": "XX/DUM/32448/0/7/E/0",
+				"ProviderID": "123HS",
+				"NationalIDNumber": "999-9999-9999999-9",
+				"Gross": 366.0,
+				"PatientShare": 36.6,
+				"Net": 329.4,
+				"DateOfBirth": "17/06/1993 00:00",
+				"Gender": "Female",
+				"Encounter": {
+					"PatientID": "APNX0301903",
+					"Start": "30/01/2013 09:09",
+					"End": "30/01/2013 09:09",
+					"StartType": "1",
+					"EndType": "1",
+					"TransferSource": "NA",
+					"TransferDestination": "NA",
+					"FacilityID": "123HS",
+					"Type": "1"
+				},
+				"Diagnosis": [
+					{
+						"Type": "Principal",
+						"Code": "E06.9",
+						"DxInfo": []
+					},
+					{
+						"Type": "Secondary",
+						"Code": "Z79.899",
+						"DxInfo": []
+					},
+					{
+						"Type": "Secondary",
+						"Code": "Z33.1",
+						"DxInfo": []
+					},
+					{
+						"Type": "Secondary",
+						"Code": "R11.10",
+						"DxInfo": []
+					}
+				],
+				"Activity": [
+					{
+						"PriorAuthorizationID": "TEST123",
+						"ID": "32",
+						"Start": "30/01/2013 09:09",
+						"Type": "3",
+						"Code": "84481",
+						"Quantity": 1.0,
+						"Net": 109.8,
+						"Clinician": "LIC042",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "low TSH_ persistent,ABNORMAL THYROID FUNCTION TEST",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "T3,FREE (FREE TRI-IODOTHYRONINE),  SERUM",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "122.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "0.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "12.200",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							}
+						]
+					},
+					{
+						"PriorAuthorizationID": "TEST123",
+						"ID": "33",
+						"Start": "30/01/2013 09:09",
+						"Type": "3",
+						"Code": "84439",
+						"Quantity": 1.0,
+						"Net": 109.8,
+						"Clinician": "LIC042",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "low TSH_ persistent,ABNORMAL THYROID FUNCTION TEST",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "T4 FREE(THYROXINE), SERUM",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "122.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "0.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "12.200",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							}
+						]
+					},
+					{
+						"PriorAuthorizationID": "TEST123",
+						"ID": "34",
+						"Start": "30/01/2013 09:09",
+						"Type": "3",
+						"Code": "84443",
+						"Quantity": 1.0,
+						"Net": 109.8,
+						"Clinician": "LIC042",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "low TSH_ persistent,ABNORMAL THYROID FUNCTION TEST",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "TSH-THYROID STIMULATING HORMONE",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "122.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "0.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "12.200",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "INVXO4599249",
+				"Type": "Submission",
+				"MemberID": "1D/LE/9DE866/0/2/P/0",
+				"ProviderID": "123HS",
+				"NationalIDNumber": "999-9999-9999999-9",
+				"Gross": 427.0,
+				"PatientShare": 42.7,
+				"Net": 384.3,
+				"DateOfBirth": "22/12/2023 00:00",
+				"Gender": "Male",
+				"Encounter": {
+					"PatientID": "APNX0801174",
+					"Start": "30/01/2013 19:01",
+					"End": "30/01/2013 19:01",
+					"StartType": "1",
+					"EndType": "1",
+					"TransferSource": "NA",
+					"TransferDestination": "NA",
+					"FacilityID": "123HS",
+					"Type": "1"
+				},
+				"Diagnosis": [
+					{
+						"Type": "Principal",
+						"Code": "R10.84",
+						"DxInfo": []
+					},
+					{
+						"Type": "Secondary",
+						"Code": "R21",
+						"DxInfo": []
+					}
+				],
+				"Activity": [
+					{
+						"ID": "35",
+						"Start": "30/01/2013 19:01",
+						"Type": "3",
+						"Code": "76700",
+						"Quantity": 1.0,
+						"Net": 384.3,
+						"Clinician": "LIC041",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "poor apetite,poor intake,peri anal redness,Anal Itching,ABDOMINAL PAIN",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "US WHOLE ABDOMEN",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "427.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "0.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "42.700",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "INVXO4599465",
+				"Type": "Submission",
+				"MemberID": "XX/DUM/32448/0/31/E/0",
+				"ProviderID": "123HS",
+				"NationalIDNumber": "999-9999-9999999-9",
+				"Gross": 175.0,
+				"PatientShare": 35.0,
+				"Net": 140.0,
+				"DateOfBirth": "01/10/1989 00:00",
+				"Gender": "Female",
+				"Encounter": {
+					"PatientID": "APNX0831373",
+					"Start": "31/01/2013 09:40",
+					"End": "31/01/2013 09:40",
+					"StartType": "1",
+					"EndType": "1",
+					"TransferSource": "NA",
+					"TransferDestination": "NA",
+					"FacilityID": "123HS",
+					"Type": "1"
+				},
+				"Diagnosis": [
+					{
+						"Type": "Principal",
+						"Code": "K21.9",
+						"DxInfo": []
+					},
+					{
+						"Type": "Secondary",
+						"Code": "I10",
+						"DxInfo": []
+					},
+					{
+						"Type": "Secondary",
+						"Code": "K29.70",
+						"DxInfo": []
+					},
+					{
+						"Type": "Secondary",
+						"Code": "K80.80",
+						"DxInfo": []
+					},
+					{
+						"Type": "Secondary",
+						"Code": "S30.1XXA",
+						"DxInfo": []
+					},
+					{
+						"Type": "Secondary",
+						"Code": "R10.84",
+						"DxInfo": []
+					},
+					{
+						"Type": "Secondary",
+						"Code": "Z79.899",
+						"DxInfo": []
+					},
+					{
+						"Type": "Secondary",
+						"Code": "E78.2",
+						"DxInfo": []
+					}
+				],
+				"Activity": [
+					{
+						"PriorAuthorizationID": "TEST1234",
+						"ID": "36",
+						"Start": "31/01/2013 09:40",
+						"Type": "8",
+						"Code": "11",
+						"Quantity": 1.0,
+						"Net": 140.0,
+						"Clinician": "LIC041",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "HEARTBURN AND REFLUX OF ACIDITY,HEARTBURN,HIGH BLOOD PRESSURE,KNOWN HTN AND HYPERLIPIDEMIA,ABDOMINAL PAIN",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "DR-OP CONSULTATION VISIT",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "175.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "35.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "35.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "INVXO4599601",
+				"Type": "Submission",
+				"MemberID": "AE/AD/DEW866/0/D/P/0",
+				"ProviderID": "123HS",
+				"NationalIDNumber": "999-9999-9999999-9",
+				"Gross": 125.0,
+				"PatientShare": 12.5,
+				"Net": 112.5,
+				"DateOfBirth": "22/12/2023 00:00",
+				"Gender": "Male",
+				"Encounter": {
+					"PatientID": "APNX0801174",
+					"Start": "31/01/2013 12:10",
+					"End": "31/01/2013 12:10",
+					"StartType": "1",
+					"EndType": "1",
+					"TransferSource": "NA",
+					"TransferDestination": "NA",
+					"FacilityID": "123HS",
+					"Type": "1"
+				},
+				"Diagnosis": [
+					{
+						"Type": "Principal",
+						"Code": "R10.84",
+						"DxInfo": []
+					},
+					{
+						"Type": "Secondary",
+						"Code": "K30",
+						"DxInfo": []
+					},
+					{
+						"Type": "Secondary",
+						"Code": "R21",
+						"DxInfo": []
+					}
+				],
+				"Activity": [
+					{
+						"ID": "37",
+						"Start": "31/01/2013 12:10",
+						"Type": "8",
+						"Code": "10",
+						"Quantity": 1.0,
+						"Net": 112.5,
+						"Clinician": "LIC056",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "constipation,ABDOMINAL PAIN,sleep disturbance",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "DR-OP CONSULTATION VISIT",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "125.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "12.500",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "12.500",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							}
+						]
+					}
+				]
+			},
+			{
+				"ID": "INVXO4600081",
+				"Type": "Submission",
+				"MemberID": "XX/DUM/32448/0/20/E/0",
+				"ProviderID": "123HS",
+				"NationalIDNumber": "999-9999-9999999-9",
+				"Gross": 320.62,
+				"PatientShare": 0.0,
+				"Net": 320.62,
+				"DateOfBirth": "28/12/1990 00:00",
+				"Gender": "Female",
+				"Encounter": {
+					"PatientID": "APNX0855381",
+					"Start": "31/01/2013 19:42",
+					"End": "31/01/2013 19:42",
+					"StartType": "1",
+					"EndType": "1",
+					"TransferSource": "NA",
+					"TransferDestination": "NA",
+					"FacilityID": "123HS",
+					"Type": "1"
+				},
+				"Diagnosis": [
+					{
+						"Type": "Principal",
+						"Code": "M25.561",
+						"DxInfo": []
+					}
+				],
+				"Activity": [
+					{
+						"PriorAuthorizationID": "TER12345",
+						"ID": "38",
+						"Start": "31/01/2013 19:42",
+						"Type": "3",
+						"Code": "97010",
+						"Quantity": 1.0,
+						"Net": 59.05,
+						"Clinician": "LIC078",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "E/P-HOT/COLD PACKS THERAPY-97010",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "59.050",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "0.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "0.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							}
+						]
+					},
+					{
+						"PriorAuthorizationID": "TER12345",
+						"ID": "39",
+						"Start": "31/01/2013 19:42",
+						"Type": "3",
+						"Code": "97110",
+						"Quantity": 1.0,
+						"Net": 122.0,
+						"Clinician": "LIC078",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "E/P-THERAPEUTIC EXERCISES-97110",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "122.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "0.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "0.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							}
+						]
+					},
+					{
+						"PriorAuthorizationID": "TER12345",
+						"ID": "40",
+						"Start": "31/01/2013 19:42",
+						"Type": "3",
+						"Code": "97035",
+						"Quantity": 1.0,
+						"Net": 61.73,
+						"Clinician": "LIC078",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "E/P-ULTRASOUND THERAPY-97035",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "61.730",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "0.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "0.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							}
+						]
+					},
+					{
+						"PriorAuthorizationID": "TER12345",
+						"ID": "41",
+						"Start": "31/01/2013 19:42",
+						"Type": "3",
+						"Code": "97014",
+						"Quantity": 1.0,
+						"Net": 77.84,
+						"Clinician": "LIC078",
+						"Observation": [
+							{
+								"Type": "Text",
+								"Code": "Description",
+								"Value": "E/P-ELECTRIC STIMULATION THERAPY-97014",
+								"ValueType": "Other"
+							},
+							{
+								"Type": "Financial",
+								"Code": "ActivityGross",
+								"Value": "77.840",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSDeductible",
+								"Value": "0.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSCoPayment",
+								"Value": "0.000",
+								"ValueType": "Float"
+							},
+							{
+								"Type": "Financial",
+								"Code": "PSOutOfPocket",
+								"Value": "0.00",
+								"ValueType": "Float"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
